@@ -67,4 +67,8 @@ public class Tiburon extends Pez {
         numTiburones--;
         super.finalize();
     }
+    
+    public void nombre(){
+        System.out.println("Tiburon " + especie);
+    }
 }
